@@ -8,7 +8,6 @@
   "author": "Purna S <purna.sadanala@prowesssoft.com>",
 
   "inputs":[
-    
 	{
       "name": "InputString",
       "type": "string",
