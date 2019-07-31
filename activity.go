@@ -40,9 +40,9 @@ func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
         ctx.SetOutput("SubStringBefore", a)
         ctx.SetOutput("SubStringAfter", b)
     } else {
-        fmt.Println("Index not found")
-        fmt.Println(str)
-    }
+			fmt.Println("Index not found")
+			fmt.Println(str)
+		}
 
 	// Set the output as part of the context
 	activityLog.Debugf("Activity has sliced the string Successfully")
