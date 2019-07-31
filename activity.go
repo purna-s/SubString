@@ -3,10 +3,7 @@ package SubString
 import (
 
 	"fmt"
-    "os"
 	"strings"
-	"time"
-    "path/filepath"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
@@ -39,8 +36,8 @@ func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
     i := strings.Index(str, sep)
     //fmt.Println("Index: ", i)
     if i > -1 {
-        a := x[:i]
-        b := x[i+1:]
+        a := str[:i]
+        b := str[i+1:]
         ctx.SetOutput("SubStringBefore", a)
         ctx.SetOutput("SubStringAfter", b)
     } else {
