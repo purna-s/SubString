@@ -3,7 +3,7 @@ title: SubString
 ---
 
 # SubString
-This activity allows to list details of all the files in a folder
+This activity allows to Slice the given string based on the separator
 
 ## Installation
 ### Flogo CLI
