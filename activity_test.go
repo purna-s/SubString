@@ -3,10 +3,7 @@ package SubString
 import (
 
 	"fmt"
-    "os"
-    "path/filepath"
 	"strings"
-	"time"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
