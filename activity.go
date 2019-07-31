@@ -32,7 +32,7 @@ func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
 	str := ctx.GetInput("InputString").(string)
 	sep := ctx.GetInput("Separator").(string)
 
-    i = strings.Index(str, sep)
+    i := strings.Index(str, sep)
     //fmt.Println("Index: ", i)
     if i > -1 {
         a := str[:i]
