@@ -42,7 +42,7 @@ func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
         ctx.SetOutput("SubStringAfter", b)
     } else {
         fmt.Println("Index not found")
-        fmt.Println(x)
+        fmt.Println(str)
     }
 
 	// Set the output as part of the context
