@@ -29,7 +29,6 @@ func (a *SubString) Metadata() *activity.Metadata {
 // Eval implements activity.Activity.Eval
 func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
 	
-
 	str := ctx.GetInput("InputString").(string)
 	sep := ctx.GetInput("Separator").(string)
 
