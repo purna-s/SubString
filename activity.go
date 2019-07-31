@@ -48,5 +48,5 @@ func (a *SubString) Eval(ctx activity.Context) (done bool, err error) {
 	activityLog.Debugf("Activity has sliced the string Successfully")
 	fmt.Println("Activity has sliced the string Successfully")
 
-	return true, nil
+	return nil
 }
